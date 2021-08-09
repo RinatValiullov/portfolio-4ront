@@ -1,0 +1,50 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "The home repository of my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RinatValiullov/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "learn",
+    "web",
+    "frontend",
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    "jest",
+    "react"
+  ],
+  "author": "Rinat Valiullov <4rontender>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RinatValiullov/portfolio/issues"
+  },
+  "homepage": "https://github.com/RinatValiullov/portfolio#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "parcel-bundler": "^1.12.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
