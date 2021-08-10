@@ -6,7 +6,9 @@
   "description": "The home repository of my projects",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "ts:compile": "tsc TodoApp-MVC/js/main.ts",
+    "scss:compile": "node-sass TodoApp-MVC/css --output TodoApp-MVC/css --recursive"
   },
   "repository": {
     "type": "git",
@@ -40,7 +42,9 @@
     "cz-conventional-changelog": "^3.2.0",
     "eslint": "^7.32.0",
     "jest": "^27.0.6",
-    "parcel-bundler": "^1.12.5"
+    "node-sass": "^6.0.1",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.3.5"
   },
   "config": {
     "commitizen": {
